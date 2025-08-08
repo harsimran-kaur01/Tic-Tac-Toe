@@ -11,3 +11,4 @@ Open `index.html` in your browser (or use VS Code Live Server).
 - Win detection
 - Restart button
 -
+Author:Harsimran Kaur
