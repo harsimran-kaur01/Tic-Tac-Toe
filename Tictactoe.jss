@@ -12,10 +12,13 @@ function clear(){
         box.disabled=false;
         box.innerText="";   
     })
-     msgcon=document.querySelector(".msgcontainer");
-        msgcon.style.display='none';
-gameover=false;
+    msgcon=document.querySelector(".msgcontainer");
+    msgcon.style.display='none';
+    gameover=false;
+    a = 0; 
+    turnX = true;
 }
+
 const checkwinner=()=>{
     for(let pattern of winpattern){
         let pos1=boxes[pattern[0]].innerText;
